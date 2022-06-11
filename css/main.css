@@ -1,0 +1,114 @@
+body {
+  background-color: #000;
+  color: #fff; }
+
+/*Se comienza a trabajar en 400x547 mobile first*/
+/*titulo*/
+.div-titulo {
+  border: 0.12rem solid #8F00FF;
+  margin: 1rem; }
+  .div-titulo h1 {
+    font-family: "Lobster", cursive;
+    color: #8F00FF;
+    text-align: center;
+    font-size: 1.8rem;
+    animation: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; }
+
+/*barra de navegacion con id*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+
+nav a {
+  color: #8F00FF;
+  font-family: "Lobster", cursive;
+  font-size: 1.2rem;
+  text-decoration: none; }
+
+/*mensaje apertura*/
+.div-bienvenida {
+  display: grid;
+  grid-template-areas: "titulo-grid imagen-grid" "parrafo-grid imagen-grid" "parrafo2-grid imagen-grid";
+  border: 0.12rem solid #8F00FF;
+  margin: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  align-items: center; }
+
+.titulo-grid {
+  grid-area: titulo-grid;
+  text-align: center;
+  color: #8F00FF;
+  font-family: "Lobster", cursive; }
+
+.imagen-grid {
+  grid-area: imagen-grid;
+  height: 120px;
+  width: 120px; }
+
+.parrafo-grid {
+  grid-area: parrafo-grid;
+  text-align: center;
+  font-family: "Fredoka", sans-serif; }
+
+.parrafo2-grid {
+  grid-area: parrafo2-grid;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  color: #8F00FF; }
+
+/*Eloboost*/
+.eloboost-article {
+  margin: 1rem;
+  margin-top: 3rem;
+  text-align: center; }
+  .eloboost-article h3 {
+    font-family: "Lobster", cursive;
+    color: #8F00FF;
+    font-size: 1.8rem; }
+  .eloboost-article .div-article {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.2rem; }
+
+/*boosters*/
+.booster {
+  border: 0.12rem solid #8F00FF;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .booster h4 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.2rem;
+    color: #8F00FF; }
+  .booster .card {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .booster .card img {
+      background-color: #000;
+      width: 250px;
+      height: 200px; }
+  .booster .card-body {
+    background-color: #000; }
+    .booster .card-body h5 {
+      color: #8F00FF;
+      font-family: "Fredoka", sans-serif; }
+    .booster .card-body p {
+      color: #8F00FF;
+      font-family: "Fredoka", sans-serif; }
+    .booster .card-body a {
+      background-color: #8F00FF;
+      color: #fff; }
+
+/*media query tablet*/
+/*media query desktop*/
