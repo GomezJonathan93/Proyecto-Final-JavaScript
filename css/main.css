@@ -71,44 +71,132 @@ nav a {
   .eloboost-article h3 {
     font-family: "Lobster", cursive;
     color: #8F00FF;
-    font-size: 1.8rem; }
+    font-size: 2.3rem; }
   .eloboost-article .div-article {
     font-family: "Fredoka", sans-serif;
     font-size: 1.2rem; }
+    .eloboost-article .div-article span {
+      color: #8F00FF; }
 
 /*boosters*/
-.booster {
+.services {
   border: 0.12rem solid #8F00FF;
   text-align: center;
   margin: 1rem;
-  padding: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .booster h4 {
-    font-family: "Fredoka", sans-serif;
-    font-size: 1.2rem;
-    color: #8F00FF; }
-  .booster .card {
+  .services .card {
     background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .booster .card img {
+    .services .card img {
       background-color: #000;
-      width: 250px;
-      height: 200px; }
-  .booster .card-body {
+      width: 180px;
+      height: 130px; }
+  .services .card-body {
     background-color: #000; }
-    .booster .card-body h5 {
+    .services .card-body h4 {
       color: #8F00FF;
       font-family: "Fredoka", sans-serif; }
-    .booster .card-body p {
-      color: #8F00FF;
+    .services .card-body p {
+      color: #fff;
       font-family: "Fredoka", sans-serif; }
-    .booster .card-body a {
+    .services .card-body a {
       background-color: #8F00FF;
       color: #fff; }
+    .services .card-body .p-precio {
+      font-size: 1.2rem;
+      color: #8F00FF; }
+
+/*Coaching*/
+.coaching-article {
+  margin: 1rem;
+  margin-top: 3rem;
+  text-align: center; }
+  .coaching-article h4 {
+    font-family: "Lobster", cursive;
+    color: #8F00FF;
+    font-size: 2.3rem; }
+  .coaching-article .div-article {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.2rem; }
+    .coaching-article .div-article span {
+      color: #8F00FF; }
+
+.services2 {
+  border: 0.12rem solid #8F00FF;
+  text-align: center;
+  margin: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .services2 .card {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .services2 .card img {
+      background-color: #000;
+      width: 140px;
+      height: 150px; }
+  .services2 .card-body {
+    background-color: #000; }
+    .services2 .card-body h5 {
+      color: #8F00FF;
+      font-family: "Fredoka", sans-serif; }
+    .services2 .card-body p {
+      color: #fff;
+      font-family: "Fredoka", sans-serif; }
+    .services2 .card-body a {
+      background-color: #8F00FF;
+      color: #fff; }
+    .services2 .card-body .p-precio {
+      font-size: 1.2rem;
+      color: #8F00FF; }
+
+/*Merch*/
+/*footer*/
+.vuelve-arriba {
+  display: flex;
+  justify-content: center; }
+  .vuelve-arriba a {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-size: 1rem;
+    color: #8F00FF; }
+
+.redes-sociales {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-evenly; }
+  .redes-sociales li {
+    list-style: none; }
+    .redes-sociales li a {
+      text-decoration: none;
+      font-family: "Lobster", cursive;
+      font-size: 0.8rem;
+      color: #8F00FF; }
+
+.parrafo-footer {
+  text-align: center;
+  font-size: 0.5rem;
+  font-family: "Fredoka", sans-serif; }
+  .parrafo-footer a {
+    text-decoration: none; }
+
+.parrafo-footer2 {
+  font-size: 0.8rem;
+  font-family: "Lobster", cursive;
+  text-align: center; }
 
 /*media query tablet*/
 /*media query desktop*/
